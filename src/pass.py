@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
+Created on Wed Oct 18 17:53:26 2017
 
-This is a temporary script file.
+@author: Vašek
 """
+
 heslo = input('zadej své heslo > ')
 
 MALA = 'qwertzuiopasdfghjklyxcvbnm'
@@ -30,7 +31,7 @@ for znak in heslo:
     if znak in CISLA:
         jeCISLA = True
         
-print(jeMALA, jeVELKA, jeSPEC, jeCISLA)
+
 if jeMALA + jeVELKA + jeSPEC + jeCISLA >=3:
     print('heslo je v pořádku')
     exit(0)
